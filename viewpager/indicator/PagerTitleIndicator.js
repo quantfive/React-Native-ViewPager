@@ -118,6 +118,7 @@ export default class PagerTitleIndicator extends Component {
                     }}
                     horizontal={true}
                     style={{ flex: 1 }}
+                    contentContainerStyle={this.props.contentContainerStyle}
                     >
                     {titleViews}
                 </ScrollView>
